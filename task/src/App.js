@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 // import Task2 from './Components/Task2';
 import Task3 from './Components/Task3'
+import Task4 from './Components/Task4'
 // import Age from './Components/Age';
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <div className="App">
      {/* <Age/> */}
      {/* <Task2 /> */}
-     <Task3 />
+     {/* <Task3 /> */}
+     <Task4 />
     </div>
   );
 }

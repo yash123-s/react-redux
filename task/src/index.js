@@ -30,7 +30,7 @@ import ReduxThunk from 'redux-thunk'
 import { Provider } from 'react-redux'; 
 
 import { createStore, applyMiddleware, compose } from 'redux'; 
-import Reducer from './Reducer/index2';
+import Reducer from './Reducer/index4';
 // import task2ReducerA from './Reducer/task2ReducerA';
 // import task2ReducerB from './Reducer/task2ReducerB';
 
