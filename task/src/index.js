@@ -24,13 +24,13 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-// import index from './Reducer/index';
+// import index5 from './Reducer/index5';
 import ReduxThunk from 'redux-thunk'
 
 import { Provider } from 'react-redux'; 
 
 import { createStore, applyMiddleware, compose } from 'redux'; 
-import Reducer from './Reducer/index4';
+import Reducer from './Reducer/index5';
 // import task2ReducerA from './Reducer/task2ReducerA';
 // import task2ReducerB from './Reducer/task2ReducerB';
 

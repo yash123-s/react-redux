@@ -1,18 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-// import Task2 from './Components/Task2';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Task2 from './Components/Task2';
 import Task3 from './Components/Task3'
 import Task4 from './Components/Task4'
-// import Age from './Components/Age';
+import Age from './Components/Age';
+import Task5 from './Components/Task5';
 
 function App() {
   return (
     <div className="App">
-     {/* <Age/> */}
-     {/* <Task2 /> */}
-     {/* <Task3 /> */}
-     <Task4 />
+     <Router>  
+      <switch> 
+      {/* <Route exact path='/' component={Age}></Route>
+      <Route exact path='/task2' component={Task2}></Route>
+      <Route exact path='/task3' component={Task3}></Route> */}
+         {/* <Route exact path='/task4' component={Task4}></Route> */}
+         <Route exact path='/task5' component={Task5}></Route>
+         </switch>
+        </Router>
     </div>
   );
 }

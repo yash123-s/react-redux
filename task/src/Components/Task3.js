@@ -30,8 +30,6 @@ const mapStoreToProps=(state)=>
     const {b}=state.task2ReducerB;
     const {c}=state.task2ReducerC;
     const {d}=state.task2ReducerD;
-   
-    
     return {a,b,c,d};
 }
 

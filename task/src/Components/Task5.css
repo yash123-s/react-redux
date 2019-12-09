@@ -1,0 +1,25 @@
+.red{
+    background-color: red;
+    height: 100vh;
+}
+.green{
+    background-color:green;
+    height: 100vh;
+}
+.grey{
+    background-color:gray;
+    height: 100vh;
+}
+.purple{
+    background-color:purple;
+    height: 100vh;
+}
+.lime{
+    background-color: lime;
+    height: 100vh;
+
+}
+.white{
+    height: 100vh;
+    background-color: white;
+}

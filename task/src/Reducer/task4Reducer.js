@@ -1,5 +1,4 @@
 import * as ActionTypes from '../Action/type4';
-import { add, sub, increment } from '../Action/task4Action';
 
 
 const initialState={
