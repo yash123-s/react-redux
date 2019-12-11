@@ -6,6 +6,7 @@ import Task3 from './Components/Task3'
 import Task4 from './Components/Task4'
 import Age from './Components/Age';
 import Task5 from './Components/Task5';
+import Task6 from './Components/Task6';
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
       {/* <Route exact path='/' component={Age}></Route>
       <Route exact path='/task2' component={Task2}></Route>
       <Route exact path='/task3' component={Task3}></Route> */}
-         {/* <Route exact path='/task4' component={Task4}></Route> */}
+         <Route exact path='/task4' component={Task4}></Route>
          <Route exact path='/task5' component={Task5}></Route>
+         <Route exact path='/task6' component={Task6}></Route>
          </switch>
         </Router>
     </div>
